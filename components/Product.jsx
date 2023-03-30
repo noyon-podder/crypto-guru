@@ -46,13 +46,13 @@ const Product = () => {
         </div>
 
         {/* swiper slider part start here   */}
-        <div className="mt-14">
+        <div className="">
           <Swiper
-            // autoplay={{
-            //   delay: 2000,
-            //   loop: true,
-            //   disableOnInteraction: false,
-            // }}
+            autoplay={{
+              delay: 2000,
+              loop: true,
+              disableOnInteraction: false,
+            }}
             slidesPerView={5}
             spaceBetween={50}
             breakpoints={{
