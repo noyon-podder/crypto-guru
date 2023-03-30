@@ -2,7 +2,7 @@ import { FaPhoneAlt, FaEnvelopeOpen } from "react-icons/fa";
 
 const TopBar = () => {
   return (
-    <div className="bg-[#102542] py-6">
+    <div className="bg-[#102542] py-6 px-3 lg:px-1 w-full hidden lg:block">
       <div className="xl:container xl:mx-auto">
         <div className="flex items-center">
           <div className="flex items-center mr-8 text-white">

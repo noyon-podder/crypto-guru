@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from './Navbar';
+import TopBar from './TopBar';
 
 const Header = () => {
   return (
-    <div>
-      <h2 className='header-title'>Header page</h2>
-    </div>
+    <header>
+      <TopBar/>
+      <Navbar/>
+    </header>
   );
 }
 
