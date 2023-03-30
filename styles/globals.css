@@ -32,3 +32,25 @@
   background-color: #102542;
   color: #fff;
 }
+.text-gradient {
+  background-color: linear-gradient(45deg, #f3ec78, #af4261);
+}
+
+.main-button {
+  display: inline-block;
+  padding: 15px 90px;
+  display: flex;
+  border-radius: 100px;
+  background-color: var(--primary-color);
+  color: var(--title-color);
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+}
+.button-icon {
+  margin-left: 10px;
+  transition: margin 0.3s ease-in-out;
+}
+.main-button:hover .button-icon {
+  margin-left: 16px;
+}
