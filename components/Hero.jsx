@@ -30,16 +30,16 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-            {/* <img
-              className="w-full h-full lg:max-w-3xl"
-              src={heroImage}
-              alt="Catalogue-pana.svg"
-            /> */}
             <img
+              className="w-full h-full lg:max-w-3xl"
+              src="https://i.ibb.co/T8gdnFF/hero.png"
+              alt="Catalogue-pana.svg"
+            />
+            {/* <img
               className="w-full h-full lg:max-w-3xl"
               src="https://merakiui.com/images/components/Catalogue-pana.svg"
               alt="Catalogue-pana.svg"
-            />
+            /> */}
           </div>
         </div>
       </div>
