@@ -9,7 +9,7 @@ const Blog = () => {
         </div>
 
         <div class="bg-white">
-          <div class="container px-6 pt-5 pb-10 mx-auto">
+          <div class="container px-3 pt-5 pb-10 mx-auto">
             <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
               <div className="border hover:cursor-pointer">
                 <img

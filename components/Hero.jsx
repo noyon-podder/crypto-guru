@@ -35,11 +35,6 @@ const Hero = () => {
               src="https://i.ibb.co/T8gdnFF/hero.png"
               alt="Catalogue-pana.svg"
             />
-            {/* <img
-              className="w-full h-full lg:max-w-3xl"
-              src="https://merakiui.com/images/components/Catalogue-pana.svg"
-              alt="Catalogue-pana.svg"
-            /> */}
           </div>
         </div>
       </div>

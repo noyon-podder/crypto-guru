@@ -46,7 +46,7 @@ const Product = () => {
         </div>
 
         {/* swiper slider part start here   */}
-        <div className="">
+        <div className="flex items-center">
           <Swiper
             autoplay={{
               delay: 2000,
@@ -56,8 +56,15 @@ const Product = () => {
             slidesPerView={5}
             spaceBetween={50}
             breakpoints={{
-              640: {
+              350:{
                 slidesPerView: 2,
+              },
+              500: {
+                slidesPerView: 2,
+              },
+              654: {
+                slidesPerView: 3,
+                spaceBetween: 40,
               },
               768: {
                 slidesPerView: 4,
