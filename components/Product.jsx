@@ -68,7 +68,7 @@ const Product = () => {
                 spaceBetween: 50,
               },
             }}
-            // modules={[Autoplay]}
+            modules={[Autoplay]}
           >
             {product.map((data) => {
               return (
