@@ -1,6 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";// Import Swiper styles
 import "swiper/css";
+import ProductCard from "./ProductCard";
+import { FaArrowRight } from "react-icons/fa";
 
 const Product = () => {
   const product = [
@@ -25,7 +27,7 @@ const Product = () => {
       title: "Rolex",
     },
     {
-      image: "https://i.ibb.co/vLCj3pk/610-Pe9-IL51-L-AC-UY218.png",
+      image: "https://i.ibb.co/9rsSKv1/61x-Jh-XAP-L-AC-SX569.jpg",
       title: "Samsung",
     },
     {
@@ -36,6 +38,19 @@ const Product = () => {
       image: "https://i.ibb.co/rw7kKqY/61c1-QC4l-F-L-AC-UY218.png",
       title: "Nokia",
     },
+    {
+      image: "https://i.ibb.co/nmpRtb0/71-FLs-WWm-E8-L-AC-UY218.png",
+      title: "Rolex",
+    },
+    {
+      image: "https://i.ibb.co/9rsSKv1/61x-Jh-XAP-L-AC-SX569.jpg",
+      title: "Samsung",
+    },
+    {
+      image: "https://i.ibb.co/XpcNbLf/61uvr1c-YEi-L-AC-UY218.png",
+      title: "Apple",
+    },
+    
   ];
 ;
   return (
@@ -56,7 +71,7 @@ const Product = () => {
             slidesPerView={5}
             spaceBetween={50}
             breakpoints={{
-              350:{
+              350: {
                 slidesPerView: 2,
               },
               500: {
@@ -94,6 +109,12 @@ const Product = () => {
             })}
           </Swiper>
         </div>
+      </div>
+      <ProductCard />
+      <div className="mt-8 flex justify-center">
+        <button className="main-button">
+          View All Post <FaArrowRight className="ml-4" />
+        </button>
       </div>
     </section>
   );

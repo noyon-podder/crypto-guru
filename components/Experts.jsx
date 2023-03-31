@@ -8,7 +8,7 @@ const Experts = () => {
   return (
     <div>
       <section className="py-10 lg:py-10">
-        <div className="container">
+        <div className="container mx-auto">
           <div class="items-center lg:flex px-2">
             <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
               <h2 className="text-6xl font-bold text-title">

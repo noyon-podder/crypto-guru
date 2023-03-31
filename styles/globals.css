@@ -60,6 +60,9 @@
   font-weight: 600;
   transition: all 0.3s ease-in;
 }
+.main-small-button:hover {
+  background-color: #ddb01e;
+}
 .button-icon {
   margin-left: 10px;
   transition: margin 0.3s ease-in-out;

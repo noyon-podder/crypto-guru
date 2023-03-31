@@ -24,7 +24,7 @@ const Hosting = () => {
                 <span className="text-title">guru deals</span>
               </h1>
 
-              <p class="mt-5 text-title">
+              <p class="mt-5 text-title text-base">
                 Progressively iterate equity invested materials before
                 client-centric users. Conveniently customize interdependent best
                 practices for exceptional niches. Professionally procrastinate
