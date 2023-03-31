@@ -30,7 +30,7 @@ const ProductCard = () => {
         {
             productCardData.map(product => {
                 return (
-                  <div className="border w-72 py-4 px-1 text-center rounded-lg">
+                  <div className="border lg:w-72 py-4 px-1 text-center rounded-lg w-full">
                     <img src={product.image} alt="" className="w-36 mx-auto" />
                     <h3 className="mt-5 text-xl font-bold text-title">
                       {product.title}

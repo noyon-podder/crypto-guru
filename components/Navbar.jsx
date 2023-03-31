@@ -58,19 +58,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <div className="flex items-center">
-                  <img
-                    src={
-                      "https://www.pngmart.com/files/17/USA-Flag-Transparent-PNG.png"
-                    }
-                    alt=""
-                    width={20}
-                    height={17}
-                  />
-                  <span className="ml-1 text-base text-[#102542] font-medium">
-                    US
-                  </span>
-                </div>
+                
                 <div className="">
                   <button className=" small-button login mr-3  ">Login</button>
                   <button className="small-button signup">Signup</button>
